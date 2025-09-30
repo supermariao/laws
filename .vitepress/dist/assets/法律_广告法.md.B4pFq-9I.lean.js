@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as s,ah as r}from"./chunks/framework.B9Iqqwi6.js";const f=JSON.parse('{"title":"中华人民共和国广告法","description":"","frontmatter":{},"headers":[],"relativePath":"法律/广告法.md","filePath":"法律/广告法.md"}'),e={name:"法律/广告法.md"};function t(o,p,g,i,h,d){return s(),n("div",null,[...p[0]||(p[0]=[r("",224)])])}const l=a(e,[["render",t]]);export{f as __pageData,l as default};
