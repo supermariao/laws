@@ -7,3 +7,9 @@ repaceAll(/第([一二三四五六七八九十百千]+)条/, **<span id="$1">第
 repaceAll(/第([一二三四五六七八九十百千]+)条/, <a href="#$1">第$1条</a>
 4、段落首行缩进
 ^([^#>*])   &emsp;&emsp;$1
+
+
+(?=pattern) 零宽正向先行断言(zero-width positive lookahead assertion)  判断后边=
+(?!pattern) 零宽负向先行断言(zero-width negative lookahead assertion)   判断后边!=
+(?<=pattern) 零宽正向后行断言(zero-width positive lookbehind assertion) 判断前边=
+(?<!pattern) 零宽负向后行断言(zero-width negative lookbehind assertion)  判断前边!=
